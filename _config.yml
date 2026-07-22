@@ -1,0 +1,32 @@
+# Book settings — EEQT30001 單元二課程書（仿 jhihsheng/em 慣例）
+# Build: bash build_jbook.sh    Deploy: bash git_push.sh
+title: 量子光學與量子感測
+author: Jhih-Sheng Wu (吳致盛)
+
+execute:
+  execute_notebooks: 'off'
+  stderr_output: 'remove'
+
+latex:
+  latex_documents:
+    targetname: eeqt30001_unit2.tex
+
+repository:
+  url: https://github.com/jhihsheng/eeqt30001
+  path_to_book: ""
+  branch: main
+
+launch_buttons:
+  colab_url: "https://colab.research.google.com"
+
+html:
+  use_issues_button: false
+  use_repository_button: true
+  use_multitoc_numbering: false
+
+sphinx:
+  config:
+    mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  extra_extensions:
+    - sphinx_proof
+    - sphinx_exercise

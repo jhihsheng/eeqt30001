@@ -1,0 +1,31 @@
+# Table of contents — EEQT30001 單元二（仿 em：numbered chapters）
+# 章節隨轉換進度啟用：骨架版先 intro＋作業＋題庫；週 7–10 轉好逐章解開註解
+format: jb-book
+root: intro
+options:
+  numbered: True
+chapters:
+# - file: week07/index
+#   sections:
+#   - file: week07/sec1
+#   - file: week07/sec2
+#   - file: week07/sec3
+# - file: week08/index
+#   sections:
+#   - file: week08/sec1
+#   - file: week08/sec2
+#   - file: week08/sec3
+# - file: week09/index
+#   sections:
+#   - file: week09/sec1
+#   - file: week09/sec2
+#   - file: week09/sec3
+# - file: week10/index
+#   sections:
+#   - file: week10/sec1
+#   - file: week10/sec2
+#   - file: week10/sec3
+- file: assignment/index
+  sections:
+  - file: assignment/starter
+- file: question_bank
