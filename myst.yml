@@ -1,4 +1,4 @@
-# EEQT30001 單元二課程書 — Jupyter Book 2（MyST 引擎）
+# EEQT30001 單元二課程書 — Jupyter Book 2（MyST 引擎）；四章全開版
 # 本機檢查：myst build --site（僅解析內容＋驗交叉引用；本伺服器擋 localhost，不做 HTML 匯出）
 # 正式建置與部署：push main 後 GitHub Actions 自動執行（.github/workflows/deploy.yml）
 version: 1
@@ -16,22 +16,21 @@ project:
         - file: week07/sec1.md
         - file: week07/sec2.md
         - file: week07/sec3.md
-    # 週 8–10 轉換完成後逐章解開：
-    # - file: week08/index.md
-    #   children:
-    #     - file: week08/sec1.md
-    #     - file: week08/sec2.md
-    #     - file: week08/sec3.md
-    # - file: week09/index.md
-    #   children:
-    #     - file: week09/sec1.md
-    #     - file: week09/sec2.md
-    #     - file: week09/sec3.md
-    # - file: week10/index.md
-    #   children:
-    #     - file: week10/sec1.md
-    #     - file: week10/sec2.md
-    #     - file: week10/sec3.md
+    - file: week08/index.md
+      children:
+        - file: week08/sec1.md
+        - file: week08/sec2.md
+        - file: week08/sec3.md
+    - file: week09/index.md
+      children:
+        - file: week09/sec1.md
+        - file: week09/sec2.md
+        - file: week09/sec3.md
+    - file: week10/index.md
+      children:
+        - file: week10/sec1.md
+        - file: week10/sec2.md
+        - file: week10/sec3.md
     - file: assignment/index.md
       children:
         - file: assignment/starter.ipynb
