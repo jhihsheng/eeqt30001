@@ -1,0 +1,25 @@
+/* 仿 em（Jupyter Book 1 / sphinx-book-theme 預設）的配色與字型
+   —— 只調 light mode；dark mode 保留 JB2 主題預設 */
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Noto Sans TC", "Helvetica Neue", Arial, sans-serif;
+}
+
+/* 內文連結：em 的藍 (#0071bc)，hover 加深 */
+html:not(.dark) main a {
+  color: #0071bc;
+}
+html:not(.dark) main a:hover {
+  color: #045a8d;
+}
+
+/* 內文與標題文字色：sphinx-book-theme 的深灰 */
+html:not(.dark) main {
+  color: #323232;
+}
+html:not(.dark) main h1,
+html:not(.dark) main h2,
+html:not(.dark) main h3 {
+  color: #202020;
+}

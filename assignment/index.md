@@ -2,7 +2,7 @@
 
 - **定位**：期中考二卷面加分，**至多 +5 分**，加總以 100 分為上限；不強制、不催交、不受理遲交。
 - **發布／繳交**：第 7 週課後發布；**第 11 週考試當日（2026-11-17）繳交**。
-- **環境**：建議 [Google Colab](https://colab.research.google.com)（免安裝）——下一節 notebook 頁面右上有火箭圖示可直接開啟；**明文允許 AI 輔助工具**，評分只看結果與標註。
+- **環境**：建議 Google Colab（免安裝）——[點此在 Colab 直接開啟 starter notebook](https://colab.research.google.com/github/jhihsheng/eeqt30001/blob/main/assignment/starter.ipynb)；**明文允許 AI 輔助工具**，評分只看結果與標註。
 - **評分**：完成導向——程式可執行、圖表有標註即給分。
 
 ```{table} 題目與配分
@@ -14,4 +14,4 @@
 | 3 | 數值驗證 N00N 態 F_Q = N²（N = 2, 4, 6） | +1 |
 ```
 
-Starter notebook 見下一節（5.1）；同檔亦發布於 E3。
+Starter notebook 見下一節（網頁原生渲染）；同檔亦發布於 E3。

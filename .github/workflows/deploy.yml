@@ -1,0 +1,41 @@
+# push main → 以最新版 MyST（Jupyter Book 2 引擎）建置靜態站 → 部署 GitHub Pages
+# Pages 來源須設為 "GitHub Actions"（repo Settings → Pages，或 gh api 切 build_type=workflow）
+name: deploy-book
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+env:
+  BASE_URL: /${{ github.event.repository.name }}   # 專案站前綴 /eeqt30001
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install MyST
+        run: npm install -g mystmd
+      - name: Build static HTML
+        run: myst build --html
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _build/html
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,6 +1,2 @@
-jupyter-book<2
-sphinx-proof
-sphinx-exercise
-ghp-import
-matplotlib
-numpy
+# 正式建置在 GitHub Actions（npm install -g mystmd），本檔僅供本機語法檢查用
+mystmd

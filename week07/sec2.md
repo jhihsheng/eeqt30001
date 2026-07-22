@@ -106,7 +106,7 @@ for name, psi in states.items():
     print(name, "g2(0) =", round(g2,3))
 ```
 
-This is the seed of the bonus homework（見[作業章](../assignment/index)；Colab recommended;
+This is the seed of the bonus homework（見[作業章](../assignment/index.md)；Colab recommended;
 worth up to $+5$ points on Midterm 2).
 
 ## Single-photon sources compared

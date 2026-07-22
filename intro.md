@@ -16,5 +16,5 @@ NYCU 量子碩士學程必修「量子科技與工程」第 7–10 週。
 
 ## 評量
 
-- **期中考二**（筆試 30%）：閉書，隨卷附[公式卡](assets/formula_card.pdf)；題庫第 9 週課後公布於[題庫頁](question_bank)與 E3，**至少 70 分直接取自題庫**。
-- **QuTiP 程式作業（加分題）**：至多 +5 分，見[作業章](assignment/index)；建議 Google Colab，明文允許 AI 輔助。
+- **期中考二**（筆試 30%）：閉書，隨卷附[公式卡](assets/formula_card.pdf)；題庫第 9 週課後公布於[題庫頁](question_bank.md)與 E3，**至少 70 分直接取自題庫**。
+- **QuTiP 程式作業（加分題）**：至多 +5 分，見[作業章](assignment/index.md)；建議 Google Colab，明文允許 AI 輔助。
