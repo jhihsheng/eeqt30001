@@ -1,15 +1,15 @@
 # Table of contents — EEQT30001 單元二（仿 em：numbered chapters）
-# 章節隨轉換進度啟用：骨架版先 intro＋作業＋題庫；週 7–10 轉好逐章解開註解
+# 章節隨轉換進度啟用：週 7 已上線；週 8–10 轉好逐章解開註解
 format: jb-book
 root: intro
 options:
   numbered: True
 chapters:
-# - file: week07/index
-#   sections:
-#   - file: week07/sec1
-#   - file: week07/sec2
-#   - file: week07/sec3
+- file: week07/index
+  sections:
+  - file: week07/sec1
+  - file: week07/sec2
+  - file: week07/sec3
 # - file: week08/index
 #   sections:
 #   - file: week08/sec1
