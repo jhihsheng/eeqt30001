@@ -1,5 +1,5 @@
-# push main → 以最新版 MyST（Jupyter Book 2 引擎）建置靜態站 → 部署 GitHub Pages
-# Pages 來源須設為 "GitHub Actions"（repo Settings → Pages，或 gh api 切 build_type=workflow）
+# push main → 以最新版 MyST（Jupyter Book 2 引擎）建置靜態站＋各頁 typst PDF → 部署 GitHub Pages
+# Pages 來源＝GitHub Actions（build_type=workflow）
 name: deploy-book
 on:
   push:
@@ -31,8 +31,14 @@ jobs:
           node-version: 20
       - name: Install MyST
         run: npm install -g mystmd
-      - name: Build static HTML
-        run: myst build --html
+      - name: Install Typst + CJK fonts   # 各頁 PDF export 用；中文需 Noto CJK
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-cjk
+          curl -fsSL https://github.com/typst/typst/releases/latest/download/typst-x86_64-unknown-linux-musl.tar.xz \
+            | tar -xJ --strip-components=1 -C /usr/local/bin --wildcards '*/typst'
+          typst --version
+      - name: Build static HTML + per-page PDF exports
+        run: myst build --all --html
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _build/html

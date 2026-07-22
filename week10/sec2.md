@@ -1,7 +1,6 @@
 ---
-downloads:
-  - file: ../assets/week10.pdf
-    title: Week 10 講義 PDF（本章）
+exports:
+  - format: typst
 ---
 
 # Parameter Estimation and Quantum Fisher Information（第二節）

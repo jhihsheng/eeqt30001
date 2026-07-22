@@ -1,6 +1,7 @@
 /* 依 em 的 myfile.css 移植配色與字型（藍本：jhihsheng.github.io/em/_static/myfile.css）
    em 三要素：象牙白底 rgb(255,252,242)／Tangerine＋標楷體標題（帶陰影）／深灰黑側欄（桃紅連結、綠 hover）
-   v3：側欄黑底與頁尾淺鋼藍改為「與 light/dark 主題無關」硬鎖（2026-07-23 老師裁定） */
+   v3：側欄黑底與頁尾淺鋼藍與 light/dark 主題無關硬鎖（2026-07-23 老師裁定）
+   v4：側欄底部（Made with MyST 區）補黑；隱藏 Edit this page 鈕（2026-07-23 老師裁定） */
 @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
 
 /* ---- 主體：象牙白底（僅亮色模式；深色模式保留主題預設） ---- */
@@ -20,9 +21,13 @@ main h1, main h2, main h3, main h4, main h5, main h6 {
   text-shadow: 10px 10px 10px #aaa;
 }
 
+/* ---- 隱藏 Edit this page 鈕（GitHub 圖示連結保留） ---- */
+.myst-fm-edit-link { display: none !important; }
+
 /* ---- 左側欄：固定深灰黑底（兩種主題一致），象牙白字、桃紅連結、綠 hover ---- */
 .myst-primary-sidebar-pointer,
-.myst-primary-sidebar-nav {
+.myst-primary-sidebar-nav,
+.myst-primary-sidebar-footer {
   background-color: rgb(30, 30, 30) !important;
   color: ivory;
 }
@@ -41,8 +46,8 @@ main h1, main h2, main h3, main h4, main h5, main h6 {
   background-color: rgba(255, 255, 255, 0.08);
 }
 .myst-primary-sidebar-footer,
-.myst-primary-sidebar-footer a { color: #E5E4E2; }     /* platinum，仿 em extra footer */
-.myst-primary-sidebar-footer a:hover { color: #66cc94; }
+.myst-primary-sidebar-footer a { color: #E5E4E2 !important; }  /* platinum，仿 em extra footer */
+.myst-primary-sidebar-footer a:hover { color: #66cc94 !important; }
 
 /* ---- 頁尾：淺鋼藍（兩種主題一致；蓋過 bg-white 與 dark:bg-slate-950） ---- */
 html:not(.dark) footer.footer,

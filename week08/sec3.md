@@ -1,7 +1,6 @@
 ---
-downloads:
-  - file: ../assets/week08.pdf
-    title: Week 8 講義 PDF（本章）
+exports:
+  - format: typst
 ---
 
 # Quantum Communication: You Cannot Copy a Qubit（第三節）

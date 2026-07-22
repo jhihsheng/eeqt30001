@@ -1,7 +1,6 @@
 ---
-downloads:
-  - file: ../assets/week07.pdf
-    title: Week 7 講義 PDF（本章）
+exports:
+  - format: typst
 ---
 
 # Cavity QED: Redesigning the Vacuum（第三節）

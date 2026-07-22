@@ -1,6 +1,6 @@
 # EEQT30001 單元二課程書 — Jupyter Book 2（MyST 引擎）
 # 風格：仿 em（配色＋字型，見 style.css；favicon 同 em 的 JLW_icon）；建置部署：GitHub Actions（push main 自動）
-# 本機檢查：myst build --site（僅解析＋驗交叉引用；本伺服器擋 localhost，不做 HTML 匯出）
+# 各週頁面 frontmatter 帶 exports（typst→該頁 PDF，入下載選單）；本機檢查：myst build --site
 version: 1
 project:
   title: 量子光學與量子感測
@@ -37,9 +37,6 @@ project:
     - file: question_bank.md
 site:
   template: book-theme
-  nav:
-    - title: ⛶ 全螢幕
-      url: "javascript:void(document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen())"
   options:
     folders: true
     favicon: JLW_icon.png          # 分頁 icon，同 em（老師個人 icon）
