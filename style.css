@@ -1,25 +1,44 @@
-/* 仿 em（Jupyter Book 1 / sphinx-book-theme 預設）的配色與字型
-   —— 只調 light mode；dark mode 保留 JB2 主題預設 */
+/* 依 em 的 myfile.css 移植配色與字型（藍本：jhihsheng.github.io/em/_static/myfile.css）
+   em 三要素：象牙白底 rgb(255,252,242)／Tangerine＋標楷體標題（帶陰影）／深灰黑側欄（桃紅連結、綠 hover） */
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
 
+/* ---- 主體：象牙白底（僅亮色模式；深色模式保留主題預設） ---- */
+html:not(.dark) body { background-color: rgb(255, 252, 242); }
+html:not(.dark) .bg-white { background-color: rgb(255, 252, 242) !important; }
+
+/* ---- 字型：em 的 body 字族（含標楷體 fallback） ---- */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
-    "Noto Sans TC", "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+    Arial, 'Georgia', 'DFKai-SB', 'BiauKai', sans-serif !important;
 }
 
-/* 內文連結：em 的藍 (#0071bc)，hover 加深 */
-html:not(.dark) main a {
-  color: #0071bc;
-}
-html:not(.dark) main a:hover {
-  color: #045a8d;
+/* ---- 標題：Tangerine 花體＋標楷體、粗細 650、陰影（照抄 em） ---- */
+main h1, main h2, main h3, main h4, main h5, main h6 {
+  font-family: 'Tangerine', 'DFKai-SB', 'BiauKai', serif !important;
+  font-weight: 650;
+  text-shadow: 10px 10px 10px #aaa;
 }
 
-/* 內文與標題文字色：sphinx-book-theme 的深灰 */
-html:not(.dark) main {
-  color: #323232;
+/* ---- 左側欄：em 的深灰黑底、象牙白站名、桃紅連結、綠 hover ---- */
+.myst-primary-sidebar-pointer {
+  background-color: rgb(30, 30, 30);
+  color: ivory;
 }
-html:not(.dark) main h1,
-html:not(.dark) main h2,
-html:not(.dark) main h3 {
-  color: #202020;
+.myst-toc a { color: #ee4466; }
+.myst-toc a:hover { color: #66cc94; }
+.myst-toc > a.font-bold,
+.myst-toc > a.font-bold:hover { color: ivory; }        /* 站名（仿 em site-logo ivory） */
+.myst-toc svg { color: ivory !important; }             /* 展開箭頭 */
+.myst-primary-sidebar-nav .myst-toc-item:hover,
+.myst-primary-sidebar-nav .myst-toc-item a:focus {
+  background-color: rgba(255, 255, 255, 0.08);
 }
+.myst-primary-sidebar-footer,
+.myst-primary-sidebar-footer a { color: #E5E4E2; }     /* platinum，仿 em extra footer */
+.myst-primary-sidebar-footer a:hover { color: #66cc94; }
+
+/* ---- 頁尾（site parts footer）：em 的 lightsteelblue ---- */
+footer.myst-site-footer, .myst-site-footer, footer {
+  background-color: lightsteelblue;
+}
+footer p { margin: 0.4rem 0; }

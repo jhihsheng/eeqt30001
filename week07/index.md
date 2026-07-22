@@ -1,3 +1,9 @@
+---
+downloads:
+  - file: ../assets/week07.pdf
+    title: Week 7 講義 PDF（本章）
+---
+
 # Quantum States of Light: The DV and CV Languages
 
 **Week 7**（2026-10-20，3 lecture hours）｜[本章 PDF 講義](../assets/week07.pdf)｜投影片：E3

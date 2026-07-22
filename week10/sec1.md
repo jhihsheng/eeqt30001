@@ -1,3 +1,9 @@
+---
+downloads:
+  - file: ../assets/week10.pdf
+    title: Week 10 講義 PDF（本章）
+---
+
 # Shot Noise and the Standard Quantum Limit（第一節）
 
 ## Poisson statistics: the noise of independence

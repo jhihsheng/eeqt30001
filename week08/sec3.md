@@ -1,3 +1,9 @@
+---
+downloads:
+  - file: ../assets/week08.pdf
+    title: Week 8 講義 PDF（本章）
+---
+
 # Quantum Communication: You Cannot Copy a Qubit（第三節）
 
 ## No-cloning in two lines

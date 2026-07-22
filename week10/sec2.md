@@ -1,3 +1,9 @@
+---
+downloads:
+  - file: ../assets/week10.pdf
+    title: Week 10 講義 PDF（本章）
+---
+
 # Parameter Estimation and Quantum Fisher Information（第二節）
 
 ## The estimation framework, and the bound we do not prove

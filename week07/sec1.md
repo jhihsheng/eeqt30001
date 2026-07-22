@@ -1,3 +1,9 @@
+---
+downloads:
+  - file: ../assets/week07.pdf
+    title: Week 7 講義 PDF（本章）
+---
+
 # Quantum States of Light（第一節）
 
 ## One mode is a harmonic oscillator

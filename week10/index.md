@@ -1,3 +1,9 @@
+---
+downloads:
+  - file: ../assets/week10.pdf
+    title: Week 10 講義 PDF（本章）
+---
+
 # Quantum Sensing: Limits, Fisher Information, and Nanophotonics
 
 **Week 10**（2026-11-10，3 lecture hours）｜[本章 PDF 講義](../assets/week10.pdf)｜投影片：E3

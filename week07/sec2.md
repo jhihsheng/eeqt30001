@@ -1,3 +1,9 @@
+---
+downloads:
+  - file: ../assets/week07.pdf
+    title: Week 7 講義 PDF（本章）
+---
+
 # Proving the Photon: The Second-Order Correlation $g^{(2)}(0)$（第二節）
 
 ## Photon-counting statistics

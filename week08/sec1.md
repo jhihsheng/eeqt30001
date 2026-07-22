@@ -1,3 +1,9 @@
+---
+downloads:
+  - file: ../assets/week08.pdf
+    title: Week 8 講義 PDF（本章）
+---
+
 # From the Vacuum to Entangled Pairs: SPDC, Beam Splitters, and Hong--Ou--Mandel（第一節）
 
 ## A $\chi^{(2)}$ crystal turns one photon into two

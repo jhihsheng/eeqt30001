@@ -1,3 +1,9 @@
+---
+downloads:
+  - file: ../assets/week09.pdf
+    title: Week 9 講義 PDF（本章）
+---
+
 # Quantum Networks: When Not Interacting Becomes the Point（第三節）
 
 ## The shape of the problem

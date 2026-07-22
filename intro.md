@@ -1,3 +1,17 @@
+---
+downloads:
+  - file: assets/week07.pdf
+    title: Week 7 講義 PDF
+  - file: assets/week08.pdf
+    title: Week 8 講義 PDF
+  - file: assets/week09.pdf
+    title: Week 9 講義 PDF
+  - file: assets/week10.pdf
+    title: Week 10 講義 PDF
+  - file: assets/formula_card.pdf
+    title: 公式卡 PDF
+---
+
 # 量子光學與量子感測（EEQT30001 單元二）
 
 NYCU 量子碩士學程必修「量子科技與工程」第 7–10 週。
@@ -12,7 +26,7 @@ NYCU 量子碩士學程必修「量子科技與工程」第 7–10 週。
 | 9 | 2026-11-03 | 光量子計算平台與量子網路 | [下載](assets/week09.pdf) | E3 |
 | 10 | 2026-11-10 | 量子感測：極限、QFI 與奈米光子學 | [下載](assets/week10.pdf) | E3 |
 
-各週網頁版章節與 PDF 內容相同；投影片於 E3 發布（課堂教學素材）。
+各週網頁版章節與 PDF 內容相同（頁首下載鈕亦有本章 PDF）；投影片於 E3 發布（課堂教學素材）。
 
 ## 評量
 

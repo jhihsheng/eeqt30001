@@ -1,3 +1,9 @@
+---
+downloads:
+  - file: ../assets/week09.pdf
+    title: Week 9 講義 PDF（本章）
+---
+
 # The DV Route: Measurement Replaces Interaction（第一節）
 
 ## The photonic qubit's balance sheet

@@ -1,3 +1,9 @@
+---
+downloads:
+  - file: assets/formula_card.pdf
+    title: 公式卡 PDF
+---
+
 # 期中考二題庫（公布位）
 
 題庫將於**第 9 週（2026-11-03）課後**公布於本頁與 E3。

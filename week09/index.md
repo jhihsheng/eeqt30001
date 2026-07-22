@@ -1,3 +1,9 @@
+---
+downloads:
+  - file: ../assets/week09.pdf
+    title: Week 9 講義 PDF（本章）
+---
+
 # Photonic Quantum Computing Platforms and Quantum Networks
 
 **Week 9**（2026-11-03，3 lecture hours）｜[本章 PDF 講義](../assets/week09.pdf)｜投影片：E3

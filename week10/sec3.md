@@ -1,3 +1,9 @@
+---
+downloads:
+  - file: ../assets/week10.pdf
+    title: Week 10 講義 PDF（本章）
+---
+
 # Nanophotonics: The Limit Is a Design Parameter（第三節）
 
 ## From my research to this question

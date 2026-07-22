@@ -1,3 +1,9 @@
+---
+downloads:
+  - file: ../assets/week07.pdf
+    title: Week 7 講義 PDF（本章）
+---
+
 # Cavity QED: Redesigning the Vacuum（第三節）
 
 ## The Jaynes–Cummings model in one page

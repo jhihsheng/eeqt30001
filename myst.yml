@@ -1,6 +1,6 @@
-# EEQT30001 單元二課程書 — Jupyter Book 2（MyST 引擎）；四章全開版
-# 本機檢查：myst build --site（僅解析內容＋驗交叉引用；本伺服器擋 localhost，不做 HTML 匯出）
-# 正式建置與部署：push main 後 GitHub Actions 自動執行（.github/workflows/deploy.yml）
+# EEQT30001 單元二課程書 — Jupyter Book 2（MyST 引擎）
+# 風格：仿 em（配色＋字型，見 style.css）；建置部署：GitHub Actions（push main 自動）
+# 本機檢查：myst build --site（僅解析＋驗交叉引用；本伺服器擋 localhost，不做 HTML 匯出）
 version: 1
 project:
   title: 量子光學與量子感測
@@ -39,4 +39,7 @@ site:
   template: book-theme
   options:
     folders: true
-    style: style.css   # 仿 em 配色與字型（見 style.css）
+    logo_text: 量子光學與量子感測   # 左上品牌字（取代預設 Made with MyST）
+    style: style.css               # 仿 em 配色與字型
+  parts:
+    footer: footer.md              # © 2026 頁尾

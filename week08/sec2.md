@@ -1,3 +1,9 @@
+---
+downloads:
+  - file: ../assets/week08.pdf
+    title: Week 8 講義 PDF（本章）
+---
+
 # Bell's Theorem: From Philosophy to Measurement（第二節）
 
 ## Einstein's Moon and local realism
