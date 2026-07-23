@@ -1,6 +1,11 @@
 ---
 exports:
   - format: typst
+    id: w09sec2-pdf
+    output: exports/week09-sec2.pdf
+downloads:
+  - id: w09sec2-pdf
+    title: 本頁 PDF
 ---
 
 # The CV Route: Computing with Squeezed Vacuum（第二節）

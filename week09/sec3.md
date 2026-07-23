@@ -1,6 +1,11 @@
 ---
 exports:
   - format: typst
+    id: w09sec3-pdf
+    output: exports/week09-sec3.pdf
+downloads:
+  - id: w09sec3-pdf
+    title: 本頁 PDF
 ---
 
 # Quantum Networks: When Not Interacting Becomes the Point（第三節）

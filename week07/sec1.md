@@ -1,6 +1,11 @@
 ---
 exports:
   - format: typst
+    id: w07sec1-pdf
+    output: exports/week07-sec1.pdf
+downloads:
+  - id: w07sec1-pdf
+    title: 本頁 PDF
 ---
 
 # Quantum States of Light（第一節）

@@ -1,6 +1,11 @@
 ---
 exports:
   - format: typst
+    id: w10sec3-pdf
+    output: exports/week10-sec3.pdf
+downloads:
+  - id: w10sec3-pdf
+    title: 本頁 PDF
 ---
 
 # Nanophotonics: The Limit Is a Design Parameter（第三節）

@@ -1,6 +1,11 @@
 ---
 exports:
   - format: typst
+    id: w07sec2-pdf
+    output: exports/week07-sec2.pdf
+downloads:
+  - id: w07sec2-pdf
+    title: 本頁 PDF
 ---
 
 # Proving the Photon: The Second-Order Correlation $g^{(2)}(0)$（第二節）

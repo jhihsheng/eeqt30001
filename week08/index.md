@@ -1,6 +1,11 @@
 ---
 exports:
   - format: typst
+    id: w08index-pdf
+    output: exports/week08-index.pdf
+downloads:
+  - id: w08index-pdf
+    title: 本頁 PDF
 ---
 
 # Entanglement and Quantum Communication

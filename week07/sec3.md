@@ -1,6 +1,11 @@
 ---
 exports:
   - format: typst
+    id: w07sec3-pdf
+    output: exports/week07-sec3.pdf
+downloads:
+  - id: w07sec3-pdf
+    title: 本頁 PDF
 ---
 
 # Cavity QED: Redesigning the Vacuum（第三節）

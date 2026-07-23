@@ -1,6 +1,11 @@
 ---
 exports:
   - format: typst
+    id: w10index-pdf
+    output: exports/week10-index.pdf
+downloads:
+  - id: w10index-pdf
+    title: 本頁 PDF
 ---
 
 # Quantum Sensing: Limits, Fisher Information, and Nanophotonics

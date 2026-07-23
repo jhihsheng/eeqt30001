@@ -1,6 +1,11 @@
 ---
 exports:
   - format: typst
+    id: w08sec3-pdf
+    output: exports/week08-sec3.pdf
+downloads:
+  - id: w08sec3-pdf
+    title: 本頁 PDF
 ---
 
 # Quantum Communication: You Cannot Copy a Qubit（第三節）

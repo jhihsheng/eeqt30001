@@ -1,6 +1,11 @@
 ---
 exports:
   - format: typst
+    id: w08sec1-pdf
+    output: exports/week08-sec1.pdf
+downloads:
+  - id: w08sec1-pdf
+    title: 本頁 PDF
 ---
 
 # From the Vacuum to Entangled Pairs: SPDC, Beam Splitters, and Hong--Ou--Mandel（第一節）

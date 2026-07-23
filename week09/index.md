@@ -1,6 +1,11 @@
 ---
 exports:
   - format: typst
+    id: w09index-pdf
+    output: exports/week09-index.pdf
+downloads:
+  - id: w09index-pdf
+    title: 本頁 PDF
 ---
 
 # Photonic Quantum Computing Platforms and Quantum Networks

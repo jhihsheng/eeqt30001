@@ -1,6 +1,11 @@
 ---
 exports:
   - format: typst
+    id: w07index-pdf
+    output: exports/week07-index.pdf
+downloads:
+  - id: w07index-pdf
+    title: 本頁 PDF
 ---
 
 # Quantum States of Light: The DV and CV Languages
