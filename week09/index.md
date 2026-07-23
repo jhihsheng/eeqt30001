@@ -1,13 +1,3 @@
----
-exports:
-  - format: typst
-    id: w09index-pdf
-    output: exports/week09-index.pdf
-downloads:
-  - id: w09index-pdf
-    title: 本頁 PDF
----
-
 # Photonic Quantum Computing Platforms and Quantum Networks
 
 **Week 9**（2026-11-03，3 lecture hours）｜[本章 PDF 講義](../assets/week09.pdf)｜投影片：E3

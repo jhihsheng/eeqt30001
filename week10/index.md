@@ -1,13 +1,3 @@
----
-exports:
-  - format: typst
-    id: w10index-pdf
-    output: exports/week10-index.pdf
-downloads:
-  - id: w10index-pdf
-    title: 本頁 PDF
----
-
 # Quantum Sensing: Limits, Fisher Information, and Nanophotonics
 
 **Week 10**（2026-11-10，3 lecture hours）｜[本章 PDF 講義](../assets/week10.pdf)｜投影片：E3

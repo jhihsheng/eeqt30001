@@ -1,13 +1,3 @@
----
-exports:
-  - format: typst
-    id: w10sec1-pdf
-    output: exports/week10-sec1.pdf
-downloads:
-  - id: w10sec1-pdf
-    title: 本頁 PDF
----
-
 # Shot Noise and the Standard Quantum Limit（第一節）
 
 ## Poisson statistics: the noise of independence

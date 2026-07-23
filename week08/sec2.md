@@ -1,13 +1,3 @@
----
-exports:
-  - format: typst
-    id: w08sec2-pdf
-    output: exports/week08-sec2.pdf
-downloads:
-  - id: w08sec2-pdf
-    title: 本頁 PDF
----
-
 # Bell's Theorem: From Philosophy to Measurement（第二節）
 
 ## Einstein's Moon and local realism

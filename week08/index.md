@@ -1,13 +1,3 @@
----
-exports:
-  - format: typst
-    id: w08index-pdf
-    output: exports/week08-index.pdf
-downloads:
-  - id: w08index-pdf
-    title: 本頁 PDF
----
-
 # Entanglement and Quantum Communication
 
 **Week 8**（2026-10-27，3 lecture hours）｜[本章 PDF 講義](../assets/week08.pdf)｜投影片：E3

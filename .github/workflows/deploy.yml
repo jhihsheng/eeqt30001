@@ -1,5 +1,5 @@
-# push main → MyST（Jupyter Book 2 引擎）：先建各頁 typst PDF exports、再建靜態站 → 部署 GitHub Pages
-# typst 釘 0.13.1：mystmd 產出的符號名（planck.reduce、angle.l 等）在 typst 0.15 已移除
+# push main → 以最新版 MyST（Jupyter Book 2 引擎）建置靜態站 → 部署 GitHub Pages
+# 下載選單走 MyST 預設（各頁附自身 md 源檔）＋intro/question_bank 的 file 下載
 name: deploy-book
 on:
   push:
@@ -31,14 +31,6 @@ jobs:
           node-version: 20
       - name: Install MyST
         run: npm install -g mystmd
-      - name: Install Typst 0.13.1 + CJK fonts   # 各頁 PDF export 用；中文需 Noto CJK
-        run: |
-          sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-cjk
-          curl -fsSL https://github.com/typst/typst/releases/download/v0.13.1/typst-x86_64-unknown-linux-musl.tar.xz \
-            | tar -xJ --strip-components=1 -C /usr/local/bin --wildcards '*/typst'
-          typst --version
-      - name: Build per-page PDF exports (typst)
-        run: myst build --all
       - name: Build static HTML
         run: myst build --html
       - uses: actions/upload-pages-artifact@v3

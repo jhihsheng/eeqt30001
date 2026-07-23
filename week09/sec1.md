@@ -1,13 +1,3 @@
----
-exports:
-  - format: typst
-    id: w09sec1-pdf
-    output: exports/week09-sec1.pdf
-downloads:
-  - id: w09sec1-pdf
-    title: 本頁 PDF
----
-
 # The DV Route: Measurement Replaces Interaction（第一節）
 
 ## The photonic qubit's balance sheet

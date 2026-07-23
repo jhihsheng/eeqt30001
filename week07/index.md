@@ -1,13 +1,3 @@
----
-exports:
-  - format: typst
-    id: w07index-pdf
-    output: exports/week07-index.pdf
-downloads:
-  - id: w07index-pdf
-    title: 本頁 PDF
----
-
 # Quantum States of Light: The DV and CV Languages
 
 **Week 7**（2026-10-20，3 lecture hours）｜[本章 PDF 講義](../assets/week07.pdf)｜投影片：E3

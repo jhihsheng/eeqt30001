@@ -1,13 +1,3 @@
----
-exports:
-  - format: typst
-    id: w10sec2-pdf
-    output: exports/week10-sec2.pdf
-downloads:
-  - id: w10sec2-pdf
-    title: 本頁 PDF
----
-
 # Parameter Estimation and Quantum Fisher Information（第二節）
 
 ## The estimation framework, and the bound we do not prove
