@@ -35,7 +35,7 @@ $$
 \begin{aligned}
 E(a,b)-E(a,c)&=-\int d\lambda\,\rho(\lambda)\,A(a,\lambda)A(b,\lambda)
 \bigl[1-A(b,\lambda)A(c,\lambda)\bigr]\\
-\Longrightarrow\quad
+\Rightarrow\quad
 \bigl|E(a,b)-E(a,c)\bigr|&\le 1+E(b,c),
 \end{aligned}
 $$ (eq-w8-bell64)

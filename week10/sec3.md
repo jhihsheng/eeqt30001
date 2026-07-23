@@ -30,8 +30,8 @@ proof that the vacuum is a design material ({numref}`fig-w10-nanobeam`; recall
 Week 7's density-of-states figure). Chain the dependencies:
 
 $$
-F_Q \;\longleftarrow\; \text{coupling } g \;\longleftarrow\;
-\text{vacuum mode structure} \;\longleftarrow\; \text{nanostructure design},
+F_Q \;\leftarrow\; \text{coupling } g \;\leftarrow\;
+\text{vacuum mode structure} \;\leftarrow\; \text{nanostructure design},
 $$ (eq-w10-chain)
 
 and the conclusion reads itself: *the quantum limit is a design parameter.* The dark
@@ -114,9 +114,9 @@ estimate (a position, a refractive index, a displacement). How strongly does the
 output depend on $\theta$?
 
 $$
-\left\lVert\partial_\theta\,\mathbf c_{\mathrm{out}}\right\rVert^2
+\left\|\partial_\theta\,\mathbf c_{\mathrm{out}}\right\|^2
 =\mathbf c^\dagger\,
-\underbrace{\partial_\theta S^\dagger\,\partial_\theta S}_{\textstyle
+\underbrace{\partial_\theta S^\dagger\,\partial_\theta S}_{
 \equiv F_\theta}\,
 \mathbf c\;=\;\langle F_\theta\rangle_{\mathbf c}\,.
 $$ (eq-w10-ftheta)

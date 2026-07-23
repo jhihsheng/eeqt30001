@@ -78,7 +78,7 @@ $dS/d\theta=-\sin\theta$:
 $$
 \Delta\theta=\frac{\sigma(S)}{|\sin\theta|}
 =\frac{1}{\sqrt{\langle n\rangle}\,|\sin\theta|}
-\;\;\xrightarrow[\ \theta=\pi/2\ ]{}\;\;
+\;\;\Rightarrow\;\;
 \boxed{\;\Delta\phi_{\mathrm{SQL}}=\frac{1}{\sqrt{\langle n\rangle}}\;}
 $$ (eq-w10-sql)
 

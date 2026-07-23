@@ -65,7 +65,7 @@ deterministically. The elementary example is the *nonlinear sign* (NS) gate,
 
 $$
 \alpha|0\rangle+\beta|1\rangle+\gamma|2\rangle
-\;\longrightarrow\;
+\;\to\;
 \alpha|0\rangle+\beta|1\rangle-\gamma|2\rangle ,
 $$ (eq-w9-ns)
 

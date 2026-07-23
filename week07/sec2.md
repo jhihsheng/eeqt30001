@@ -45,7 +45,7 @@ g^{(2)}(0)=
 \begin{cases}
 2 & \text{thermal light (bunching)},\\
 1 & \text{coherent light (random arrivals)},\\
-\dfrac{n-1}{n}\;\xrightarrow{\,n=1\,}\;0 & \text{Fock state (antibunching)}.
+\dfrac{n-1}{n}\;\to\;0\;\;(n{=}1) & \text{Fock state (antibunching)}.
 \end{cases}
 $$ (eq-w7-g2values)
 

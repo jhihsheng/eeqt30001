@@ -54,7 +54,7 @@ density of final photon states at its transition frequency
 $$
 W=\frac{\pi}{2\hbar^{2}}\,\bigl|\langle c|\mathcal H_{I}|v\rangle\bigr|^{2}\,
 \rho(\omega)\,\hbar
-\;\;\Longrightarrow\;\;
+\;\;\Rightarrow\;\;
 W_{\mathrm{free}}=\frac{\omega^{3}|d_{cv}|^{2}}{3\pi\epsilon_{0}\hbar c^{3}} ,
 $$
 

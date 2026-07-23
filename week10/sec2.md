@@ -49,7 +49,7 @@ $|\langle\psi_\theta|\psi_{\theta+d\theta}\rangle|^2\equiv
 
 $$
 \boxed{\;F_Q=4(\Delta G)^2\;}
-\qquad\Longrightarrow\qquad
+\qquad\Rightarrow\qquad
 \Delta\theta\ \ge\ \frac{1}{2\,\Delta G\,\sqrt{\nu}}\,.
 $$ (eq-w10-fq)
 

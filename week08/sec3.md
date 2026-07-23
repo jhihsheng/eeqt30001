@@ -19,7 +19,7 @@ Unitarity preserves inner products, so
 
 $$
 \langle\psi|\phi\rangle=\langle\psi|\phi\rangle^{2}
-\quad\Longrightarrow\quad
+\quad\Rightarrow\quad
 \langle\psi|\phi\rangle\in\{0,1\} :
 $$ (eq-w8-nocloning)
 

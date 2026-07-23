@@ -129,7 +129,7 @@ Send in a single photon, $|0\rangle_0|1\rangle_1=a_1^{\dagger}|0\rangle$. Transf
 the creation operator with $U^{T}$ gives (QO_note_6, Sec. 2.1)
 
 $$
-a_1^{\dagger}|0\rangle\;\longrightarrow\;
+a_1^{\dagger}|0\rangle\;\to\;
 \left(r\,a_2^{\dagger}+t\,a_3^{\dagger}\right)|0\rangle
 =r\,|1\rangle_2|0\rangle_3+t\,|0\rangle_2|1\rangle_3 ,
 $$ (eq-w8-bs1photon)
@@ -151,7 +151,7 @@ operators with the $50{:}50$ matrix (QO_note_6, Sec. 2.2),
 $$
 \begin{aligned}
 a_0^{\dagger}a_1^{\dagger}|0\rangle
-&\longrightarrow
+&\to
 \frac{1}{2}\left(a_2^{\dagger}+i\,a_3^{\dagger}\right)
 \left(i\,a_2^{\dagger}+a_3^{\dagger}\right)|0\rangle
 =\frac{i}{2}\left[(a_2^{\dagger})^{2}+(a_3^{\dagger})^{2}\right]|0\rangle
