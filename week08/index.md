@@ -2,8 +2,7 @@
 
 **Week 8**（2026-10-27，3 lecture hours）｜[本章 PDF 講義](../assets/week08.pdf)｜投影片：E3
 
-```{admonition} Learning objectives (Week 8)
-:class: note
+```{note} Learning objectives (Week 8)
 1. Explain how a $\chi^{(2)}$ crystal converts one pump photon into a pair of daughter
    photons (SPDC), and why the process is parametric amplification of vacuum
    fluctuations --- the same squeeze operator as in Week 7.

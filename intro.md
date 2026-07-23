@@ -1,5 +1,32 @@
 ---
+exports:
+  - format: typst
+    template: plain_typst_book
+    output: exports/eeqt30001_unit2_book.pdf
+    id: unit2-book
+    articles:
+      - intro.md
+      - week07/index.md
+      - week07/sec1.md
+      - week07/sec2.md
+      - week07/sec3.md
+      - week08/index.md
+      - week08/sec1.md
+      - week08/sec2.md
+      - week08/sec3.md
+      - week09/index.md
+      - week09/sec1.md
+      - week09/sec2.md
+      - week09/sec3.md
+      - week10/index.md
+      - week10/sec1.md
+      - week10/sec2.md
+      - week10/sec3.md
+      - assignment/index.md
+      - question_bank.md
 downloads:
+  - id: unit2-book
+    title: 整本課程書 PDF（單一檔）
   - file: assets/week07.pdf
     title: Week 7 講義 PDF
   - file: assets/week08.pdf

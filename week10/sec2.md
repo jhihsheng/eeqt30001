@@ -38,7 +38,7 @@ $|\langle\psi_\theta|\psi_{\theta+d\theta}\rangle|^2\equiv
 1-\tfrac{1}{4}F_Q\,d\theta^2$ gives
 
 $$
-\boxed{\;F_Q=4(\Delta G)^2\;}
+F_Q=4(\Delta G)^2
 \qquad\Rightarrow\qquad
 \Delta\theta\ \ge\ \frac{1}{2\,\Delta G\,\sqrt{\nu}}\,.
 $$ (eq-w10-fq)

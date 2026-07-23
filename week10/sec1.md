@@ -69,7 +69,7 @@ $$
 \Delta\theta=\frac{\sigma(S)}{|\sin\theta|}
 =\frac{1}{\sqrt{\langle n\rangle}\,|\sin\theta|}
 \;\;\Rightarrow\;\;
-\boxed{\;\Delta\phi_{\mathrm{SQL}}=\frac{1}{\sqrt{\langle n\rangle}}\;}
+\Delta\phi_{\mathrm{SQL}}=\frac{1}{\sqrt{\langle n\rangle}}
 $$ (eq-w10-sql)
 
 The interferometer is operated at the half-fringe $\theta=\pi/2$, where the slope is

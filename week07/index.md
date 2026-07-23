@@ -2,8 +2,7 @@
 
 **Week 7**（2026-10-20，3 lecture hours）｜[本章 PDF 講義](../assets/week07.pdf)｜投影片：E3
 
-```{admonition} Learning objectives (Week 7)
-:class: note
+```{note} Learning objectives (Week 7)
 1. Explain why each electromagnetic mode is quantized as a harmonic oscillator, and use $[a,a^{\dagger}]=1$ to compute properties of Fock, coherent, and squeezed states.
 2. Draw vacuum, coherent, and squeezed states in phase space, and state the two encodings of light-based qubits (DV vs. CV).
 3. Classify a light source from $g^{(2)}(0)$ (thermal 2 / coherent 1 / single photon 0) and explain why antibunching --- not the photoelectric effect --- proves the photon.

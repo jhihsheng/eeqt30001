@@ -22,7 +22,7 @@ place photon counters at the outputs, and the probability of a click pattern
 $\bar n=(n_1,\dots,n_M)$ is no longer binomial: for single-photon inputs it is
 proportional to $|\mathrm{Per}(U_S)|^2$, the permanent of an $N\times N$ submatrix of
 $U$ selected by the pattern. Computing permanents is #P-hard, and the interference of
-all $N!$ photon paths cannot be factorized, so for $N\gtrsim50$ photons no classical
+all $N!$ photon paths cannot be factorized, so for $N\ge50$ photons no classical
 computer is believed able to sample from this distribution (QO_note_6, Sec. 1).
 *Gaussian* boson sampling (GBS) makes one substitution: the inputs are squeezed-vacuum
 states instead of heralded single photons, and the permanent becomes the *hafnian* ---

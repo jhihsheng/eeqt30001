@@ -2,8 +2,7 @@
 
 **Week 10**（2026-11-10，3 lecture hours）｜[本章 PDF 講義](../assets/week10.pdf)｜投影片：E3
 
-```{admonition} Learning objectives (Week 10)
-:class: note
+```{note} Learning objectives (Week 10)
 1. Derive, completely, the shot-noise phase limit of an interferometer: Poisson
    statistics $\to$ error propagation $\to$ $\Delta\phi=1/\sqrt{\langle n\rangle}$;
    distinguish the standard quantum limit ($1/\sqrt N$, statistics) from the

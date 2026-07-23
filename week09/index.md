@@ -2,8 +2,7 @@
 
 **Week 9**（2026-11-03，3 lecture hours）｜[本章 PDF 講義](../assets/week09.pdf)｜投影片：E3
 
-```{admonition} Learning objectives (Week 9)
-:class: note
+```{note} Learning objectives (Week 9)
 1. Draw up the photonic qubit's balance sheet --- why photons barely decohere and
    barely interact (Maxwell linearity) --- and explain how KLM turns *measurement* into
    an effective nonlinearity: probabilistic heralded gates, and the cluster-state
