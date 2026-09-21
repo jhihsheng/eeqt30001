@@ -3,7 +3,7 @@
 # 正式 HTML 建置與部署由 GitHub Actions 完成（.github/workflows/deploy.yml，push main 即觸發）。
 set -euo pipefail
 HERE="$(cd "$(dirname "$0")" && pwd)"
-DEV="$HOME/eeqt30001"   # 私有工作 repo（教材源；GitHub 名 eeqt30001-dev，本地目錄不改名）
+DEV="$HOME/eeqt30001-dev"   # 私有工作 repo（教材源；GitHub 名 eeqt30001-dev（本地目錄同名））
 
 # ---- 同步公開產物（僅講義 PDF＋公式卡＋starter；投影片走 E3 不入站）----
 mkdir -p "$HERE/assets"
