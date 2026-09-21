@@ -7,23 +7,23 @@
 | **Assets** | **Liability** |
 |---|---|
 | negligible decoherence (no charge, no rest mass, weak coupling to the environment) | **photons do not interact with each other** $\Rightarrow$ deterministic two-photon gates are unavailable |
-| flies at $c$ --- communication is built in | |
+| flies at $c$ — communication is built in | |
 | room-temperature qubit carrier | |
 | compatible with silicon-photonics fabrication | |
 ```
 
-Circle the right-hand column. The entire shape of photonic quantum computing --- every
-architecture in this section --- is a response to that single cell.
+Circle the right-hand column. The entire shape of photonic quantum computing — every
+architecture in this section — is a response to that single cell.
 
 **Why photons do not interact.** In vacuum and in linear media, Maxwell's equations are
 linear: superposition is exact, and two crossing laser beams pass through each other
-unchanged. (Quantum electrodynamics does permit photon--photon scattering via virtual
-electron--positron pairs, but at optical energies the rate is so small it has never
+unchanged. (Quantum electrodynamics does permit photon–photon scattering via virtual
+electron–positron pairs, but at optical energies the rate is so small it has never
 been observed with light alone.) The engineering escape would be a $\chi^{(3)}$ (Kerr)
-medium, where one beam shifts the phase of another --- but at the *single-photon* level
+medium, where one beam shifts the phase of another — but at the *single-photon* level
 the available nonlinear phase in conventional materials falls short of the $\pi$ a gate
 needs by many orders of magnitude (Kok et al. 2007). Nature does not provide a
-photon--photon gate. The field had to invent one.
+photon–photon gate. The field had to invent one.
 
 ## Encoding one photon into one qubit
 
@@ -32,7 +32,7 @@ polarization ($|H\rangle,|V\rangle$), *dual rail* (which path or waveguide the p
 occupies), and *time bin* (early or late slot). All three are two-mode encodings,
 interconverted by polarizing beam splitters and delay lines, and everything from Week 8
 applies verbatim: single-qubit gates are wave plates, beam splitters, and phase
-shifters --- linear optics does arbitrary single-qubit rotations easily. Only the
+shifters — linear optics does arbitrary single-qubit rotations easily. Only the
 *two*-qubit gate is missing.
 
 ```{figure} ../images/photon_encodings.svg
@@ -59,9 +59,9 @@ $$
 \alpha|0\rangle+\beta|1\rangle-\gamma|2\rangle ,
 $$ (eq-w9-ns)
 
-implemented with two ancilla modes --- one carrying a single photon, one in vacuum,
-both detected at the output --- and success probability $1/4$; two NS gates inside a
-Hong--Ou--Mandel-style interferometer give a controlled-$Z$ gate with success
+implemented with two ancilla modes — one carrying a single photon, one in vacuum,
+both detected at the output — and success probability $1/4$; two NS gates inside a
+Hong–Ou–Mandel-style interferometer give a controlled-$Z$ gate with success
 probability $1/16$ (KLM 2001; Kok et al. 2007). The gate is probabilistic but
 *heralded*: a specific ancilla click pattern lights up exactly when the gate worked, so
 you always know.
@@ -75,14 +75,14 @@ network; a coincidence of ancilla detections heralds success, and only then is t
 (nonlinear) gate accepted. Layout after Kok et al., Rev. Mod. Phys. **79**, 135 (2007).
 ```
 
-**The cost, and the second trick.** Cascading $1/16$ gates naively is hopeless ---
+**The cost, and the second trick.** Cascading $1/16$ gates naively is hopeless —
 success probabilities multiply, so the yield of a deep circuit dies exponentially.
 KLM's rescue is Week 8's teleportation, promoted from stunt to compiler tool: apply the
 probabilistic gate *offline* to one half of an entangled resource pair, retry until it
 succeeds, and only then teleport the computational qubit through the pre-gated pair.
 Failures burn resource states, never data, and larger ancilla states push the
-teleportation success toward one (KLM 2001). We only state the idea --- the resource
-bookkeeping is beyond this course --- but the slogan deserves its first appearance
+teleportation success toward one (KLM 2001). We only state the idea — the resource
+bookkeeping is beyond this course — but the slogan deserves its first appearance
 here: *measurement is not a passive readout; it is an active computational resource.*
 
 ## Cluster states: computing by measuring
@@ -93,7 +93,7 @@ standard *cluster state* (a lattice with controlled-$Z$ bonds between neighbors)
 compute using *only single-qubit measurements*, column by column
 ({numref}`fig-w9-mbqc`, left). The choice of measurement angles *is* the program;
 earlier outcomes steer later measurement bases. No two-qubit gate is ever applied
-during the computation --- all the entanglement was paid for up front, in the
+during the computation — all the entanglement was paid for up front, in the
 preparation of the cluster. For photonics this is the perfect division of labor: the
 hard entangling step moves into *state preparation*, where probabilistic-but-heralded
 tricks are acceptable (retry until success), while the computation itself needs only
@@ -103,8 +103,8 @@ the single-photon measurements photons are best at.
 :name: fig-w9-mbqc
 :width: 97%
 
-Left: MBQC --- entangle first (bonds), then compute by measuring single qubits at
-program-defined angles. Right: fusion-based construction --- small seed states are
+Left: MBQC — entangle first (bonds), then compute by measuring single qubits at
+program-defined angles. Right: fusion-based construction — small seed states are
 stitched into the lattice by two-photon fusion measurements; the measured pair is
 consumed and leaves a bond (after Bartolucci et al., Nat. Commun. **14**, 912 (2023)).
 ```
@@ -114,7 +114,7 @@ consumed and leaves a bond (after Bartolucci et al., Nat. Commun. **14**, 912 (2
 Growing one giant cluster photon-by-photon is fragile. The fusion-based architecture
 (Bartolucci et al. 2023) instead mass-produces small, identical *seed states*
 (few-photon entangled states, the only things a chip must generate) and stitches them
-together with *fusion* measurements --- two-photon Bell-type measurements that consume
+together with *fusion* measurements — two-photon Bell-type measurements that consume
 the measured pair and leave an entangling bond between the seeds
 ({numref}`fig-w9-mbqc`, right). A failed fusion is a *heralded erasure* at a known
 location, exactly the error a fault-tolerant code handles best, so error correction is
@@ -124,22 +124,28 @@ native to the architecture rather than bolted on.
      PsiQuantum x GlobalFoundries manufacturing partnership, million-qubit
      fault-tolerant roadmap:
      https://www.businesswire.com/news/home/20250912049344/en/
-     Industry data #2 (as of 2026-07; re-verify before class):
-     Brisbane site (~US$0.94 billion government support) and Chicago site:
-     https://thequantuminsider.com/2026/03/24/11-companies-lighting-up-the-quantum-photonics-sector/ -->
+     Industry data #2 (2026-09-21 ruling F1): Brisbane site: A$940 million
+     (~US$0.6 billion) Australian federal + Queensland government support
+     (2024); site has since moved to Moreton Bay, near Brisbane. Primary:
+     https://international.austrade.gov.au/en/news-and-analysis/news/psiquantum-to-build-worlds-first-fault-tolerant-quantum-computer-in-australia
+     (Austrade, 2024-04-30); Forbes Australia (Moreton Bay relocation).
+     Secondary: https://thequantuminsider.com/2026/03/24/11-companies-lighting-up-the-quantum-photonics-sector/
+     (ruling F9) Omega chipset: Alexander et al., Nature 641, 876 (2025). -->
 **Industry anchor.** PsiQuantum is the purest expression of this route: it builds no
-small prototype at all, aiming directly at a fault-tolerant, million-qubit machine,
-with chips manufactured in a commercial semiconductor fab (partnership with
-GlobalFoundries) and utility-scale sites announced in Brisbane (roughly US\$0.9 billion
-in Australian government support) and Chicago.[^ind] Why dare to skip the prototype?
-Because the wager is not on physics milestones but on *manufacturability*: if qubits
+NISQ-scale machine; its hardware so far is fab-made silicon (the Omega chipset;
+Alexander et al. 2025), and it aims directly at a fault-tolerant, million-qubit
+machine, with chips manufactured in a commercial semiconductor fab (partnership with
+GlobalFoundries) and utility-scale sites announced near Brisbane (A\$940 million,
+≈US\$0.6 billion, in Australian federal and Queensland government support, 2024; the
+site has since moved to Moreton Bay) and in Chicago.[^ind] Why dare to skip the NISQ
+stage? Because the wager is not on physics milestones but on *manufacturability*: if qubits
 can be printed by the same process line that already ships datacenter optical
 interconnects, then scaling is a fab problem, not a laboratory problem. The contrast
-with superconducting platforms is stark --- no dilution refrigerators; the photons
+with superconducting platforms is stark — no dilution refrigerators; the photons
 themselves live at room temperature, and only the single-photon detectors (Week 7's
 SNSPDs) need compact few-kelvin cryostats.
 
-[^ind]: Industry figures in this chapter are as of 2026-07 and are re-verified before
+[^ind]: Industry figures in this chapter are as of 2026-09 and are re-verified before
 class; sources are cited in comments in the page source beside each claim.
 
 ````{exercise} In-class discussion 1
@@ -154,7 +160,7 @@ telecom engineers list as an asset?
 :label: solu-w9-linearity
 :class: dropdown
 
-Yes --- both are the linearity of Maxwell's equations in the medium. One community
+Yes — both are the linearity of Maxwell's equations in the medium. One community
 curses it (no two-photon gate), the other banks on it (wavelength-division
 multiplexing works). Nature gave no nonlinearity at the single-photon scale; KLM's
 answer is to steal one from measurement.

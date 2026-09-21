@@ -3,7 +3,7 @@
 ## The shape of the problem
 
 Flip [Section 1](sec1.md)'s liability: a particle that talks to nothing is the perfect
-courier. One obstacle remains --- loss. Telecom fiber attenuates by
+courier. One obstacle remains — loss. Telecom fiber attenuates by
 $\alpha\approx0.2$ dB/km at 1550 nm, so direct transmission succeeds with probability
 
 $$
@@ -16,7 +16,7 @@ $$ (eq-w9-loss)
 
 At $10^{-10}$, a 10-GHz single-photon source delivers about one photon per second; at
 $10^{-20}$, one photon every ~300 years ({numref}`fig-w9-loss`; Azuma et al. 2023).
-Classical telecom solves this with amplifiers every ~80 km --- measure the dying
+Classical telecom solves this with amplifiers every ~80 km — measure the dying
 signal, copy it louder. But Week 8 proved the no-cloning theorem: an unknown quantum
 state cannot be copied, and a deterministic amplifier would be exactly a copier. So
 the problem has a peculiar shape: *the signal dies with distance, and you are
@@ -38,8 +38,8 @@ The escape (Azuma et al. 2023) uses the two tools Week 8 handed us
 entanglement across each segment; this is lossy and probabilistic, but each attempt is
 *heralded*, and a success is parked in a *quantum memory* at each node while
 neighboring segments catch up. (2) Perform a Bell-state measurement on the two
-memories at a middle node --- Week 8's *entanglement swapping*, Zeilinger's technique
---- which splices two short entangled links into one long one. Repeat up the line
+memories at a middle node — Week 8's *entanglement swapping*, Zeilinger's technique
+— which splices two short entangled links into one long one. Repeat up the line
 until Alice and Bob share one end-to-end entangled pair, then use it: teleport a qubit
 or run entanglement-based QKD. Note what never happens: no quantum signal ever crosses
 the full distance, and nothing is amplified. Entanglement, classical communication,
@@ -51,62 +51,66 @@ with $L$ instead of exponentially.
 :width: 90%
 
 A quantum repeater is an entanglement relay: entangle each short segment (heralded,
-memories hold the successes), swap at the nodes, and only end-to-end entanglement ---
-never the signal itself --- spans the distance. Architecture after Azuma et al.,
+memories hold the successes), swap at the nodes, and only end-to-end entanglement —
+never the signal itself — spans the distance. Architecture after Azuma et al.,
 Rev. Mod. Phys. **95**, 045006 (2023).
 ```
 
 ## Textbook-grade milestones
 
 **Micius** (2017): the Chinese satellite distributed entangled photon pairs to ground
-stations 1200 km apart (Yin et al. 2017) --- beating the fiber wall by leaving the
+stations 1200 km apart (Yin et al. 2017) — beating the fiber wall by leaving the
 fiber; free-space loss grows only quadratically (diffraction) rather than
-exponentially, and most of the path is vacuum. **Delft** (2021--22): a three-node
-network of nitrogen-vacancy processors demonstrated genuinely networked protocols ---
+exponentially, and most of the path is vacuum. **Delft** (2021–22): a three-node
+network of nitrogen-vacancy processors demonstrated genuinely networked protocols —
 multi-node entanglement distribution (Pompili et al. 2021) and then teleportation
 between *non-adjacent* nodes (Hermans et al. 2022), i.e., between two parties with no
 direct link, exactly the repeater primitive of {numref}`fig-w9-repeater` run on real
 hardware.
 
-## In progress right now (2025--2026)
+## In progress right now (2025–2026)
 
-<!-- Industry data #7 (as of 2026-07; re-verify): NYU-Qunnect-Cisco three-node
-     entanglement swapping on deployed commercial fiber in NYC, ~1.5 swaps/s:
+<!-- Industry data #7 (former #7 + #11 merged; 2026-09-21 ruling F6):
+     Qunnect-NYU-Cisco three-node entanglement swapping over 17.6 km of deployed
+     commercial fiber in NYC, ~1.5 swaps/s (2026-02). Primary: Qunnect press
+     release 2026-02-18 (qunnect.inc newsroom); arXiv:2602.15653 (preprint;
+     supporting detail only, not the sole source). Secondary:
      https://phys.org/news/2026-04-scientists-quantum-internet-york-city.html
-     Industry data #11 (as of 2026-07; re-verify): Qunnect-Cisco metro-scale
-     entanglement-swapping demonstration (2026-02):
      https://quantumzeitgeist.com/top-quantum-networking-companies/
-     Industry data #8 (as of 2026-07; re-verify): Photonic Inc-TELUS teleportation
-     over 30 km of deployed commercial fiber (2025):
+     Industry data #8 (2026-09-21 ruling F3): Photonic Inc-TELUS teleportation
+     over 30 km of deployed commercial fiber, 2026 (not 2025). Primary:
+     photonic.com press release 2026-02-13. Secondary:
      https://quantumzeitgeist.com/top-quantum-networking-companies/
      Industry data #9 (as of 2026-07; re-verify): Beijing-Shanghai 2000-km QKD
-     backbone; EuroQCI; US DOE quantum network program:
+     backbone (integrated network paper: Chen et al., Nature 589, 214 (2021));
+     EuroQCI; US DOE quantum network program:
      https://thequantuminsider.com/2026/03/09/understanding-quantum-networking-and-its-industrial-potential/
-     Industry data #10 (as of 2026-07; re-verify): IonQ acquired ID Quantique
-     (2025-05) and Qubitekk (2025-01):
+     Industry data #10 (2026-09-21 ruling F7): IonQ bought a controlling stake in
+     ID Quantique (2025-05) and acquired Qubitekk (2025-01):
      https://thequantuminsider.com/2026/03/09/understanding-quantum-networking-and-its-industrial-potential/ -->
-None of this is future tense anymore. In New York City, a Qunnect--NYU--Cisco
-collaboration ran three-node entanglement swapping over *live commercial* telecom
-fiber at about 1.5 swaps per second (2026); Photonic Inc. and the carrier TELUS
-teleported qubit states across 30 km of deployed fiber in a metropolitan network
-(2025). At the infrastructure scale: China's 2000-km Beijing--Shanghai backbone
-carries QKD traffic today (with *trusted relay* nodes --- honest caveat: that is
-classical trust at each relay, not yet entanglement swapping); the EU is building
-EuroQCI; the US DOE runs a national quantum-network program. And the market is
-consolidating --- IonQ bought the QKD pioneer ID Quantique and the network-hardware
-maker Qubitekk in 2025. Quantum networking has left the optical table and moved into
-telecom conduits.
+None of this is future tense anymore. In New York City, a Qunnect–NYU–Cisco
+collaboration ran three-node entanglement swapping over 17.6 km of *live commercial*
+telecom fiber at about 1.5 swaps per second (2026); Photonic Inc. and the carrier
+TELUS teleported qubit states across 30 km of deployed fiber in a metropolitan
+network (2026). At the infrastructure scale: China's 2000-km Beijing–Shanghai
+backbone carries QKD traffic today (Chen et al. 2021) (with *trusted relay* nodes —
+honest caveat: that is classical trust at each relay, not yet entanglement swapping);
+the EU is building EuroQCI; the US DOE runs a national quantum-network program. And
+the market is consolidating — IonQ bought a controlling stake in the QKD pioneer ID
+Quantique (May 2025) and acquired the network-hardware maker Qubitekk (January 2025).
+Quantum networking has left the optical table and moved into telecom conduits.
 
 ## Bridge to Week 10: the other killer application
 
 Secrecy is not the only reason to entangle distant nodes. A network of entangled
-sensors --- clocks, telescopes, gravimeters --- can beat the precision of the same
-sensors operating alone; entangled atomic-clock networks and very-long-baseline
-optical telescopes are stages two and three of the standard quantum-internet roadmap
-(Wehner, Elkouss, and Hanson 2018). What exactly does entanglement buy a
+sensors — clocks, telescopes, gravimeters — can beat the precision of the same
+sensors operating alone; entangled atomic-clock networks and long-baseline optical
+telescopes sit in the later stages of the six-stage quantum-internet roadmap of
+Wehner, Elkouss, and Hanson (2018) — the quantum-memory and few-qubit fault-tolerant
+stages. What exactly does entanglement buy a
 *measurement*? What sets the precision limit in the first place, and who ordered it
---- Heisenberg or statistics? That is Week 10, where the unit's dark line closes: the
-vacuum is not empty, it is a resource, it can compute --- and next week, it can be
+— Heisenberg or statistics? That is Week 10, where the unit's dark line closes: the
+vacuum is not empty, it is a resource, it can compute — and next week, it can be
 squeezed and *designed*.
 
 ````{exercise} In-class discussion 3
@@ -122,10 +126,10 @@ the same?
 
 No-cloning: a deterministic amplifier that restores an unknown qubit would be a
 copier, which unitarity forbids (Week 8's two-line proof). Hence the entire
-architecture of {numref}`fig-w9-repeater` --- relay *entanglement* by swapping, never
+architecture of {numref}`fig-w9-repeater` — relay *entanglement* by swapping, never
 the signal by amplification. The take-away sentence of the week applies here too: the
 repeater's central act, the Bell-state measurement, is measurement working as a
-resource --- KLM's lesson, stretched across a continent.
+resource — KLM's lesson, stretched across a continent.
 ```
 
 ```{important}
@@ -134,10 +138,10 @@ Fiber loss is exponential, Eq. {eq}`eq-w9-loss`, and no-cloning forbids amplific
 so quantum networks relay entanglement instead of signals: heralded segment
 entanglement, quantum memories, and entanglement swapping at the nodes. Micius took
 entanglement to 1200 km via satellite; Delft ran the first true three-node network
-protocols; 2025--26 demonstrations moved entanglement swapping and teleportation onto
+protocols; 2025–26 demonstrations moved entanglement swapping and teleportation onto
 live commercial metro fiber, while trusted-relay QKD backbones, EuroQCI, and DOE
-programs build out infrastructure. The same networks' second application ---
-distributed quantum sensing --- is where Week 10 begins.
+programs build out infrastructure. The same networks' second application —
+distributed quantum sensing — is where Week 10 begins.
 ```
 
 ## References（Week 9）
@@ -152,11 +156,15 @@ distributed quantum sensing --- is where Week 10 begins.
 8. Y.-H. Deng et al., *Gaussian boson sampling with pseudo-photon-number-resolving detectors and quantum computational advantage*, Phys. Rev. Lett. **131**, 150601 (2023).
 9. L. S. Madsen et al., *Quantum computational advantage with a programmable photonic processor*, Nature **606**, 75 (2022).
 10. H. Aghaee Rad et al., *Scaling and networking a modular photonic quantum computer*, Nature **638**, 912 (2025).
-11. D. Gottesman, A. Kitaev, and J. Preskill, *Encoding a qubit in an oscillator*, Phys. Rev. A **64**, 012310 (2001).
-12. C. Oh, M. Liu, Y. Alexeev, B. Fefferman, and L. Jiang, *Classical algorithm for simulating experimental Gaussian boson sampling*, Nat. Phys. **20**, 1461 (2024).
-13. C. Oh, L. Jiang, and B. Fefferman, *Spoofing cross-entropy measure in boson sampling*, Phys. Rev. Lett. **131**, 010401 (2023).
-14. K. Azuma, S. E. Economou, D. Elkouss, P. Hilaire, L. Jiang, H.-K. Lo, and I. Tzitrin, *Quantum repeaters: From quantum networks to the quantum internet*, Rev. Mod. Phys. **95**, 045006 (2023).
-15. J. Yin et al., *Satellite-based entanglement distribution over 1200 kilometers*, Science **356**, 1140 (2017).
-16. M. Pompili et al., *Realization of a multinode quantum network of remote solid-state qubits*, Science **372**, 259 (2021).
-17. S. L. N. Hermans et al., *Qubit teleportation between non-neighbouring nodes in a quantum network*, Nature **605**, 663 (2022).
-18. S. Wehner, D. Elkouss, and R. Hanson, *Quantum internet: A vision for the road ahead*, Science **362**, eaam9288 (2018).
+11. K. Alexander et al. (PsiQuantum), *A manufacturable platform for photonic quantum computing*, Nature **641**, 876 (2025).
+12. M. V. Larsen et al., *Integrated photonic source of Gottesman–Kitaev–Preskill qubits*, Nature **642**, 587 (2025).
+13. S. Konno et al., *Logical states for fault-tolerant quantum computation with propagating light*, Science **383**, 289 (2024).
+14. D. Gottesman, A. Kitaev, and J. Preskill, *Encoding a qubit in an oscillator*, Phys. Rev. A **64**, 012310 (2001).
+15. C. Oh, M. Liu, Y. Alexeev, B. Fefferman, and L. Jiang, *Classical algorithm for simulating experimental Gaussian boson sampling*, Nat. Phys. **20**, 1461 (2024).
+16. C. Oh, L. Jiang, and B. Fefferman, *Spoofing cross-entropy measure in boson sampling*, Phys. Rev. Lett. **131**, 010401 (2023).
+17. K. Azuma, S. E. Economou, D. Elkouss, P. Hilaire, L. Jiang, H.-K. Lo, and I. Tzitrin, *Quantum repeaters: From quantum networks to the quantum internet*, Rev. Mod. Phys. **95**, 045006 (2023).
+18. J. Yin et al., *Satellite-based entanglement distribution over 1200 kilometers*, Science **356**, 1140 (2017).
+19. Y.-A. Chen et al., *An integrated space-to-ground quantum communication network over 4,600 kilometres*, Nature **589**, 214 (2021).
+20. M. Pompili et al., *Realization of a multinode quantum network of remote solid-state qubits*, Science **372**, 259 (2021).
+21. S. L. N. Hermans et al., *Qubit teleportation between non-neighbouring nodes in a quantum network*, Nature **605**, 663 (2022).
+22. S. Wehner, D. Elkouss, and R. Hanson, *Quantum internet: A vision for the road ahead*, Science **362**, eaam9288 (2018).

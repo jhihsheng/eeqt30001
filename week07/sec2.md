@@ -1,5 +1,6 @@
 # Proving the Photon: The Second-Order Correlation $g^{(2)}(0)$（第二節）
 
+(sec-w7-counting)=
 ## Photon-counting statistics
 
 Modern detectors do not record a continuous intensity; they *click*. The statistics
@@ -8,19 +9,24 @@ of clicks classify light (QO_photon_stat):
 - **Poissonian**, $\Delta n=\sqrt{\langle n\rangle}$: coherent light (laser).
 - **Super-Poissonian**, $\Delta n>\sqrt{\langle n\rangle}$: thermal/chaotic light.
 - **Sub-Poissonian**, $\Delta n<\sqrt{\langle n\rangle}$:
-  *no classical explanation* --- non-classical light.
+  *no classical explanation* — non-classical light.
 
 A practical warning: loss randomizes. If photons survive a lossy channel or an inefficient
 detector independently with probability $\eta$, sub-Poissonian statistics degrade toward
-Poissonian --- observing quantum statistics requires high collection and detection
+Poissonian — observing quantum statistics requires high collection and detection
 efficiency. This motivates the SNSPD section of this chapter.
 
 ## The HBT experiment and $g^{(2)}$
 
-Photon counting alone cannot separate "one photon at a time" from a very dim laser
-(see the discussion question below). The decisive quantity is the *intensity–intensity*
-correlation, measured in the Hanbury Brown–Twiss (HBT) geometry: split the beam 50:50 onto
-two detectors and count coincidences ({numref}`fig-w7-hbt`). For a single mode, with the
+Counting statistics could in principle do the job, but the
+[photon-counting statistics above](#sec-w7-counting) showed that loss drags them toward
+Poissonian. What survives loss is a *ratio*: under linear loss $\eta$ both
+$\langle a^{\dagger}a^{\dagger}aa\rangle$ and $\langle a^{\dagger}a\rangle^{2}$ scale as
+$\eta^{2}$, so $g^{(2)}(0)$ is unchanged — a 10%-efficient detector measures the same
+$g^{(2)}(0)$ as a perfect one. That is why the *intensity–intensity* correlation,
+measured in the Hanbury Brown–Twiss (HBT) geometry, became the standard: split the beam
+50:50 onto two detectors and count coincidences ({numref}`fig-w7-hbt`). For a single
+mode, with the
 detector-ordering of operators from Glauber's photodetection theory
 (QO_note_5, Sec. 1),
 
@@ -43,15 +49,15 @@ For *any* classical intensity distribution, the Cauchy–Schwarz inequality forc
 $g^{(2)}(0)\ge 1$: classical waves can bunch, never antibunch. Therefore a measured
 $g^{(2)}(0)<1$ has no classical explanation, and $g^{(2)}(0)\to 0$ certifies a
 single-photon source. This is the experiment that finally proved the photon: resonance
-fluorescence of single atoms, Kimble, Dagenais and Mandel (1977) ---
-seventy years after the photoelectric effect. The photoelectric effect needs only
+fluorescence from a dilute sodium atomic beam (fewer than one atom in view on average),
+Kimble, Dagenais and Mandel (1977) — seventy years after the photoelectric effect. The photoelectric effect needs only
 quantized *atoms*; antibunching needs quantized *light*.
 
 ```{figure} ../images/hbt_setup.svg
 :name: fig-w7-hbt
 :width: 46%
 
-HBT setup --- beam splitter, two detectors, coincidence counter.
+HBT setup — beam splitter, two detectors, coincidence counter.
 ```
 
 ```{figure} ../images/g2_curves.svg
@@ -106,19 +112,19 @@ for name, psi in states.items():
     print(name, "g2(0) =", round(g2,3))
 ```
 
-This is the seed of the bonus homework（見[作業章](../assignment/index.md)；Colab recommended;
-worth up to $+5$ points on Midterm 2).
+This is the seed of the bonus homework (see the [assignment page](../assignment/index.md);
+Colab recommended; worth up to $+5$ points on Midterm 2).
 
 ## Single-photon sources compared
 
-```{table} Order-of-magnitude comparison of single-photon sources（數字 2026-07 依文獻核校；cf. Fox Ch. 5）
+```{table} Order-of-magnitude comparison of single-photon sources; figures verified against the literature as of 2026-09 (cf. Fox Ch. 5; Eisaman et al. 2011; Senellart et al. 2017; NV row: Kurtsiefer et al. 2000; Aharonovich, Englund, and Toth 2016).
 :name: tab-w7-sps
 | Source | $g^{(2)}(0)$ (typ.) | Rate | Operating $T$ | Deterministic? |
 |---|---|---|---|---|
 | Attenuated laser | $1$ (always) | GHz | room | no (Poisson) |
 | SPDC, heralded (Week 8) | $10^{-2}$ (best $3{\times}10^{-4}$) | 0.1–4 MHz | room | heralded |
 | Quantum dot in cavity | $\sim10^{-3}$ | tens of MHz | 4–10 K | near-det. |
-| NV center in diamond | $0.2$–$0.4$ | $10^{5}$–$3{\times}10^{6}$ s$^{-1}$ | room | det., poor collection |
+| NV center in diamond | $0.1$–$0.3$ | $10^{4}$–$10^{6}$ s$^{-1}$ | room | det., poor collection |
 ```
 
 The quantum-dot route is where cavity QED (next section) pays off: a cavity both
