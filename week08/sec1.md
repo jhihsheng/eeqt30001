@@ -66,8 +66,9 @@ $$ (eq-w8-tmsv)
 
 whose photon numbers are *perfectly correlated*: detecting an idler photon heralds the
 presence of exactly one signal photon (at small $r$) — the heralded single-photon
-source of Week 7's comparison table. Second, in type-II phase matching the signal and
-idler are orthogonally polarized and emerge on two cones ({numref}`fig-w8-spdc`b).
+source of Week 7's comparison table. Second, in type-II phase matching the two photons
+of each pair are orthogonally polarized, one on the $H$ cone and one on the $V$ cone
+({numref}`fig-w8-spdc`b).
 Along the two directions where the cones intersect, neither photon has a definite
 polarization, yet the polarizations are perfectly anti-correlated — the pair is in the
 entangled state (Kwiat et al. 1995)
@@ -77,6 +78,7 @@ $$
 +e^{i\varphi}|V\rangle_s|H\rangle_i\right).
 $$ (eq-w8-bellpair)
 
+Here the subscripts $s,i$ label the two intersection directions, not the cones.
 This state — produced at megahertz rates on a tabletop — is the entangled pair
 behind the modern photonic Bell tests of [Section 2](sec2.md) and the protocols of
 [Section 3](sec3.md) (the early tests used atomic-cascade pairs; Delft's loophole-free
