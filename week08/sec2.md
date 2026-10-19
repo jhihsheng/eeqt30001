@@ -118,9 +118,10 @@ entangled electron spins 1.3 km apart, heralded by photon interference (Hensen e
 2015). Every result violated the local bound (Delft: $S=2.42\pm0.20$; NIST and Vienna
 used the CH–Eberhard form), exactly as quantum mechanics predicts. The 2022 Nobel
 Prize went to Aspect,
-Clauser, and Zeilinger for this arc. *In class we spend ~25 minutes on the official
-Nobel animation and excerpts of Zeilinger's Nobel lecture; the scientific background
-PDF is assigned reading.*
+Clauser, and Zeilinger for this arc. *In class we watch two short films: the minutephysics–3Blue1Brown video on
+Bell's theorem (a three-angle, Venn-diagram version of the argument above, with
+polarizers at $0^\circ$, $22.5^\circ$, $45^\circ$) and TU Delft's film on the 2015
+loophole-free test. The Nobel scientific background PDF is assigned reading.*
 
 ```{important}
 **Summary — Section 2.**
