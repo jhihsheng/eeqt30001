@@ -42,7 +42,7 @@ memories at a middle node — *entanglement swapping*, Zeilinger's technique —
 splices two short entangled links into one long one. It is Week 8's teleportation with
 the teleported qubit replaced by half of the left-hand entangled pair: the BSM plus two
 classical bits hands that entanglement to the far end of the right-hand segment, so two
-photons that never met end up entangled. Repeat up the line
+memories that never interacted end up entangled. Repeat up the line
 until Alice and Bob share one end-to-end entangled pair, then use it: teleport a qubit
 or run entanglement-based QKD. Note what never happens: no quantum signal ever crosses
 the full distance, and nothing is amplified. Entanglement, classical communication,

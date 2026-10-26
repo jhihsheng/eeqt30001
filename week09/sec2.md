@@ -89,7 +89,9 @@ Crane Harbor Acquisition Corp.) that listed Xanadu on Nasdaq and the TSX under t
 ticker XNDU, raising about US\$302 million — the first pure-play photonic
 quantum-computing company to trade publicly.
 
-<!-- Industry data #6 (2026-09-21 ruling F5): Quandela/ORCA QD-source route
+<!-- Industry data #6 (2026-09-21 ruling F5): Quandela QD-source route;
+     ORCA corrected 2026-10-26: PT-2 = SPDC source + two fibre delay loops + PNR SNSPDs,
+     room temperature (ORCA's arXiv:2508.19857; https://orcacomputing.com/orca-pt-2/);
      (secondary: https://thequantuminsider.com/2026/03/24/11-companies-lighting-up-the-quantum-photonics-sector/ );
      QBoson = CIM-type special-purpose optical machines, Shenzhen plant. Primary:
      Shenzhen Municipal Government English site, https://www.sz.gov.cn/en_szgov/
@@ -98,9 +100,9 @@ quantum-computing company to trade publicly.
 :name: tab-w9-industry
 | | **PsiQuantum** | **Xanadu** | **Quandela / ORCA** | **China** |
 |---|---|---|---|---|
-| encoding | DV (dual rail) | CV (GBS $\to$ GKP) | DV (QD single photons) | GBS (Jiuzhang); CIM-type (QBoson) |
-| architecture | fusion-based lattice | modular GBS network | processors around QD sources | USTC/Jiuzhang line (GBS); QBoson special-purpose optical machines |
-| signature bet | fab-first, no NISQ machine (GlobalFoundries) | error-corrected CV (Aurora, XNDU) | source quality | advantage demos (USTC); Shenzhen plant (QBoson) |
+| encoding | DV (dual rail) | CV (GBS $\to$ GKP) | DV (Quandela: QD; ORCA: SPDC + fibre loops) | GBS (Jiuzhang); CIM-type (QBoson) |
+| architecture | fusion-based lattice | modular GBS network | processors around single-photon sources | USTC/Jiuzhang line (GBS); QBoson special-purpose optical machines |
+| signature bet | fab-first, no NISQ machine (GlobalFoundries) | error-corrected CV (Aurora, XNDU) | source quality (Quandela); room-temperature fibre racks (ORCA) | advantage demos (USTC); Shenzhen plant (QBoson) |
 ```
 
 ## The honest page: what is GBS actually for?
