@@ -223,7 +223,7 @@ d = 3                                            # two modes, up to 2 photons
 a = tensor(destroy(d), qeye(d)); b = tensor(qeye(d), destroy(d))
 U = ((1j*pi/4)*(a.dag()*b + a*b.dag())).expm()   # 50:50 beam splitter
 out = U * tensor(basis(d,1), basis(d,1))         # |1,1> in
-print(expect(a.dag()*a*b.dag()*b, out))          # coincidences -> 0.0
+print(expect(a.dag()*a*b.dag()*b, out))          # coincidences -> ~1e-32 (= 0)
 ```
 
 ```{important}
