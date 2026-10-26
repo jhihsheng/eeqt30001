@@ -212,7 +212,7 @@ Eq. {eq}`eq-w8-homdip` the coincidences no longer vanish. Distinguishability in 
 degree of freedom — frequency, polarization, timing — fills the dip back in.
 ```
 
-## The HOM dip in six lines of QuTiP
+## The HOM dip in seven lines of QuTiP
 
 ```{code-block} python
 :caption: QuTiP demo — the HOM effect
