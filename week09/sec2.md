@@ -79,12 +79,12 @@ Fig. 1.
      Xanadu investor-relations press release (xanadu.ai, 2026-03) and SEC
      filings (EDGAR: Crane Harbor Acquisition Corp.). Secondary:
      https://quantumzeitgeist.com/top-photonic-quantum-computing-companies/ -->
-Xanadu's road from Borealis runs through error correction: a 2025 milestone
-demonstrated on-chip generation of GKP states (Larsen et al. 2025; the first optical
+Xanadu's road from Borealis runs through error correction: after the Aurora modular
+system (January 2025), a June 2025 milestone demonstrated on-chip generation of GKP states (Larsen et al. 2025; the first optical
 GKP states had been made in free space a year earlier, Konno et al. 2024) — in one
 sentence, GKP (Gottesman, Kitaev, and Preskill 2001) is the encoding that folds a
 continuous-variable mode into a discrete qubit, and one sentence is all the depth we
-need. Then came the Aurora modular system, and, in March 2026, a SPAC merger (with
+need. Then, in March 2026, a SPAC merger (with
 Crane Harbor Acquisition Corp.) that listed Xanadu on Nasdaq and the TSX under the
 ticker XNDU, raising about US\$302 million — the first pure-play photonic
 quantum-computing company to trade publicly.
