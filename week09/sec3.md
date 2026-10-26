@@ -38,8 +38,11 @@ The escape (Azuma et al. 2023) uses the two tools Week 8 handed us
 entanglement across each segment; this is lossy and probabilistic, but each attempt is
 *heralded*, and a success is parked in a *quantum memory* at each node while
 neighboring segments catch up. (2) Perform a Bell-state measurement on the two
-memories at a middle node — Week 8's *entanglement swapping*, Zeilinger's technique
-— which splices two short entangled links into one long one. Repeat up the line
+memories at a middle node — *entanglement swapping*, Zeilinger's technique — which
+splices two short entangled links into one long one. It is Week 8's teleportation with
+the teleported qubit replaced by half of the left-hand entangled pair: the BSM plus two
+classical bits hands that entanglement to the far end of the right-hand segment, so two
+photons that never met end up entangled. Repeat up the line
 until Alice and Bob share one end-to-end entangled pair, then use it: teleport a qubit
 or run entanglement-based QKD. Note what never happens: no quantum signal ever crosses
 the full distance, and nothing is amplified. Entanglement, classical communication,
