@@ -204,8 +204,9 @@ $F_\theta=\partial_\theta S^\dagger\partial_\theta S$ (Rotter), with information
 steerable and enhancement provably a matter of design, not complexity. Everything so
 far optimizes the light; the classical structure end has just been opened, while the
 quantum structure end (QFI-targeted inverse design, unknown upper bounds) and the
-emitter end (generator engineering) are open — the three thesis seeds live exactly
-there.
+emitter end (generator engineering) are open — thesis seeds 1 and 3 live exactly
+there, and seed 2 sits in the barely started quantum state-end cell (quantum rulers on
+topological light).
 ```
 
 ## References（Week 10）
