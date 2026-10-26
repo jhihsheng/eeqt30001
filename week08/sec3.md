@@ -95,18 +95,29 @@ rearranges identically into
 
 $$
 |\psi\rangle_1|\Phi^{+}\rangle_{23}
-=\frac{1}{2}\sum_{k=0}^{3}
-|\mathrm{Bell}_k\rangle_{12}\;\bigl(\sigma_k|\psi\rangle_3\bigr),
+=\frac{1}{2}\Bigl[\,|\Phi^{+}\rangle_{12}|\psi\rangle_3
++|\Phi^{-}\rangle_{12}\,Z|\psi\rangle_3
++|\Psi^{+}\rangle_{12}\,X|\psi\rangle_3
++|\Psi^{-}\rangle_{12}\,XZ|\psi\rangle_3\Bigr]
+\equiv\frac12\sum_{k=0}^{3}|\mathrm{Bell}_k\rangle_{12}\,\sigma_k|\psi\rangle_3,
 $$ (eq-w8-teleport)
 
-where $\sigma_k$ are the identity and the three Pauli operators. Alice performs a
-*Bell-state measurement* (BSM) on particles 1 and 2 and phones Bob the two-bit result
-$k$; Bob applies $\sigma_k^{-1}$ and holds a perfect $|\psi\rangle$. Note the
-bookkeeping: Alice's measurement destroys her copy (no-cloning is honored), the two
-classical bits carry no information about $|\psi\rangle$ by themselves, and nothing
-travels faster than light: by the *no-communication theorem*, no local operation of
-Alice's can change Bob's reduced density matrix, which stays maximally mixed until the
-classical message arrives. With photons, the BSM is built from
+with $H\equiv0$, $V\equiv1$ and $\sigma_k\in\{I,Z,X,XZ\}$: in each branch Bob's particle
+holds a Pauli-rotated copy of $|\psi\rangle$. Nothing has happened yet — this is
+algebra. Alice now performs a *Bell-state measurement* (BSM) on particles 1 and 2.
+Before it, the state is a superposition of the four branches; after it, exactly one
+branch survives and the outcome $k$ is a *classical* record, each value with
+probability $1/4$ and independent of $\alpha,\beta$. Bob's particle is now
+$\sigma_k|\psi\rangle$, but Bob does not know $k$: averaged over the four equally likely
+values his state is $\tfrac14\sum_k\sigma_k|\psi\rangle\langle\psi|\sigma_k=I/2$,
+which carries no information at all. So Alice phones Bob the result — four possible
+values, hence two bits — and Bob applies $\sigma_k^{-1}$ to hold a perfect
+$|\psi\rangle$. Note the bookkeeping: Alice's measurement destroys her copy (particles
+1 and 2 end in a Bell state that remembers nothing of $\psi$, so no-cloning is
+honored), the two classical bits carry no information about $|\psi\rangle$ by
+themselves, and nothing travels faster than light: by the *no-communication theorem*,
+no local operation of Alice's can change Bob's reduced density matrix, which stays
+$I/2$ until the classical message arrives. With photons, the BSM is built from
 [Section 1](sec1.md) hardware: the two photons interfere on a $50{:}50$ beam splitter,
 and HOM logic distinguishes two of the four Bell states — a linear-optics BSM
 therefore succeeds at most half the time. Bouwmeester et al. demonstrated photonic
