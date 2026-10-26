@@ -82,7 +82,7 @@
   <path d="M 64 90 L 88 90 L 88 115 L 64 115 Z M 64 90 "/>
 </clipPath>
 <clipPath id="clip2">
-  <path d="M 84.234375 114.300781 L 64.285156 94.351562 L 67.675781 90.957031 L 87.625 110.910156 Z M 84.234375 114.300781 "/>
+  <path d="M 87.625 94.351562 L 67.675781 114.300781 L 64.285156 110.910156 L 84.234375 90.957031 Z M 87.625 94.351562 "/>
 </clipPath>
 <linearGradient id="linear0" gradientUnits="userSpaceOnUse" x1="0" y1="25.002707" x2="0" y2="74.997293" gradientTransform="matrix(0,-0.466873,-0.466873,0,99.298996,125.973146)">
 <stop offset="0" style="stop-color:rgb(99.998474%,99.998474%,99.998474%);stop-opacity:1;"/>
@@ -338,8 +338,8 @@
 <path style=" stroke:none;fill-rule:nonzero;fill:url(#linear0);" d="M 87.625 114.300781 L 64.285156 114.300781 L 64.285156 90.957031 L 87.625 90.957031 Z M 87.625 114.300781 "/>
 </g>
 </g>
-<path style="fill:none;stroke-width:0.3985;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(74.607849%,74.607849%,74.607849%);stroke-opacity:1;stroke-miterlimit:10;" d="M 8.318347 -11.726711 L -11.725597 8.317234 L -8.318872 11.727883 L 11.725072 -8.319986 Z M 8.318347 -11.726711 " transform="matrix(0.995274,0,0,-0.995274,75.955339,102.62949)"/>
-<path style="fill:none;stroke-width:0.49814;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(100%,100%,100%);stroke-opacity:1;stroke-miterlimit:10;" d="M 8.216303 -9.418929 L -9.42174 8.219114 " transform="matrix(0.995274,0,0,-0.995274,75.955339,102.62949)"/>
+<path style="fill:none;stroke-width:0.3985;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(74.607849%,74.607849%,74.607849%);stroke-opacity:1;stroke-miterlimit:10;" d="M 11.725072 8.317234 L -8.318872 -11.726711 L -11.725597 -8.319986 L 8.318347 11.727883 Z M 11.725072 8.317234 " transform="matrix(0.995274,0,0,-0.995274,75.955339,102.62949)"/>
+<path style="fill:none;stroke-width:0.49814;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(100%,100%,100%);stroke-opacity:1;stroke-miterlimit:10;" d="M 9.421216 8.219114 L -8.216827 -9.418929 " transform="matrix(0.995274,0,0,-0.995274,75.955339,102.62949)"/>
 <g style="fill:rgb(27.450562%,27.450562%,27.450562%);fill-opacity:1;">
   <use xlink:href="#glyph2-1" x="46.609682" y="119.552135"/>
   <use xlink:href="#glyph2-2" x="50.392468" y="119.552135"/>
