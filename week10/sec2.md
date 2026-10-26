@@ -5,7 +5,7 @@
 Every sensor is the same abstract machine: a parameter $\theta$ (phase, field,
 displacement) is imprinted on a probe state, $|\psi_0\rangle\to|\psi_\theta\rangle$; a
 measurement produces data; an estimator turns data into $\hat\theta$. Classical
-statistics assigns the data a Fisher information $F(\theta)$ and bounds any unbiased
+statistics assigns the data a Fisher information (FI) $F(\theta)$ and bounds any unbiased
 estimator by the *Cramér–Rao* inequality — after $\nu$ repetitions,
 
 $$
@@ -14,7 +14,7 @@ $$ (eq-w10-crb)
 
 We take Eq. {eq}`eq-w10-crb` as given (result only; it is theorem, not physics). The
 quantum step (Braunstein and Caves 1994): maximizing $F$ over *all* measurements
-permitted by quantum mechanics defines the *quantum Fisher information* $F_Q\ge F$ —
+permitted by quantum mechanics defines the *quantum Fisher information* (QFI) $F_Q\ge F$ —
 the information content of the state itself, before any detector choices.
 
 ## Pure states: $F_Q=4(\Delta G)^2$

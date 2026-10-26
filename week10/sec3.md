@@ -135,7 +135,7 @@ $\theta$; the top eigenvector of $F_\theta$ funnels everything onto it.
 
 ## Act III — the manifesto, and three thesis seeds
 
-Here is the claim. LDOS and Purcell enhancement have a mature theory of *physical
+Here is the claim. The local density of states (LDOS) and Purcell enhancement have a mature theory of *physical
 upper bounds* — given a material and a volume, how large can the response be (Chao
 et al. 2022). To our knowledge (as of 2026), **no bound theory of Chao type exists for
 $F_Q$ over structures**; the closest results are the disorder-average invariance
