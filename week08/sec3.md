@@ -87,7 +87,7 @@ Week 10 — it is how LIGO reads out a squeezed vacuum.)
 
 ## Teleportation: moving a state without moving a particle
 
-Can Alice send Bob an *unknown* qubit $|\psi\rangle$ without physically transmitting it
+Can Alice send Bob an *unknown* qubit $|\psi\rangle=\alpha|0\rangle+\beta|1\rangle$ without physically transmitting it
 — and without violating no-cloning? Yes, if they share one entangled pair in advance
 (Bennett et al. 1993). Writing Alice's two particles (the unknown qubit and her half of
 the pair) in the basis of the four maximally entangled *Bell states*, the joint state
