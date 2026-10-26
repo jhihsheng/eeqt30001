@@ -19,7 +19,7 @@ board, balls rattle through pegs and pile up in a binomial distribution — easy
 predict. Replace the balls by *indistinguishable* photons and the pegs by a mesh of
 beam splitters and phase shifters implementing a Haar-random unitary $U$ on $M$ modes,
 place photon counters at the outputs, and the probability of a click pattern
-$\bar n=(n_1,\dots,n_M)$ is no longer binomial: for single-photon inputs it is
+$\mathbf n=(n_1,\dots,n_M)$ is no longer binomial: for single-photon inputs it is
 proportional to $|\mathrm{Per}(U_S)|^2$, the permanent of an $N\times N$ submatrix of
 $U$ selected by the pattern. Computing permanents is #P-hard, and the interference of
 all $N!$ photon paths cannot be factorized, so for ideal (lossless) boson sampling with
@@ -30,7 +30,7 @@ states instead of heralded single photons, and the permanent becomes the *hafnia
 a cousin of the permanent, just as hard — with
 
 $$
-\Pr(\bar n)\;\propto\;\bigl|\mathrm{Haf}(A_S)\bigr|^2 ,
+\Pr(\mathbf n)\;\propto\;\bigl|\mathrm{Haf}(A_S)\bigr|^2 ,
 $$ (eq-w9-haf)
 
 where $A_S$ is the submatrix, fixed by the click pattern, of a matrix $A$ built from
