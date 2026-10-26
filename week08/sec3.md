@@ -94,12 +94,14 @@ the pair) in the basis of the four maximally entangled *Bell states*, the joint 
 rearranges identically into
 
 $$
+\begin{aligned}
 |\psi\rangle_1|\Phi^{+}\rangle_{23}
-=\frac{1}{2}\Bigl[\,|\Phi^{+}\rangle_{12}|\psi\rangle_3
+&=\frac{1}{2}\Bigl[\,|\Phi^{+}\rangle_{12}|\psi\rangle_3
 +|\Phi^{-}\rangle_{12}\,Z|\psi\rangle_3
 +|\Psi^{+}\rangle_{12}\,X|\psi\rangle_3
-+|\Psi^{-}\rangle_{12}\,XZ|\psi\rangle_3\Bigr]
-\equiv\frac12\sum_{k=0}^{3}|\mathrm{Bell}_k\rangle_{12}\,\sigma_k|\psi\rangle_3,
++|\Psi^{-}\rangle_{12}\,XZ|\psi\rangle_3\Bigr]\\
+&\equiv\frac12\sum_{k=0}^{3}|\mathrm{Bell}_k\rangle_{12}\,\sigma_k|\psi\rangle_3,
+\end{aligned}
 $$ (eq-w8-teleport)
 
 with $H\equiv0$, $V\equiv1$ and $\sigma_k\in\{I,Z,X,XZ\}$: in each branch Bob's particle
